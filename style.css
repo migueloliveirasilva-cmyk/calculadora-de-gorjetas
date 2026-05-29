@@ -78,7 +78,30 @@ main {
 
 }
 
+.gorjeta input {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  text-align: center;
+  outline: none;
+  padding-block: 0.4rem;
+  border-radius: ;
+}
+
 .conta:has(input:focus) div {
 
 outline: 2px solid var(--light-green);
+}
+
+.gorjeta div{
+  border: 1px salid red;
+  margin-top: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.gorjeta #outra {
+  width: 0;
 }
